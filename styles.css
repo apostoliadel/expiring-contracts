@@ -1,0 +1,88 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+/* Styles for the form */
+form {
+    width: 400px;
+}
+
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+/* Table cells */
+td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+
+
+/* Styles for labels */
+label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+
+/* Styles for text inputs and selects */
+input[type="text"],
+select {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Buttons */
+.button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background: #49876b;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+
+/* Warning Messages */
+.warning {
+    color: red;
+}
+
+.warning::before {
+    content: "* ";
+}
+
+/* Message Box */
+.message-box {
+	margin-top: 25px;
+	width: 50%;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.message-box p{
+	margin-left: 16px;
+    margin-right: 16px;
+}
+
+
